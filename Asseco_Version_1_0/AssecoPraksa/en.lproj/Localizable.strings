@@ -1,0 +1,75 @@
+/* 
+  Localizable.strings
+  AssecoPraksa
+
+  Created by Zlatko Matokanović on 6/15/15.
+  Copyright (c) 2015 Appcoda. All rights reserved.
+*/
+
+//LOGIN//
+
+"loginLBL" = "Login";
+"rememberOption" = "Remember me?";
+
+"loginAlertTitleEmptyField" = "Error!";
+"loginAlertMessageEF" = "You have to fill all fields!";
+"loginAlertCancelButtonEF" = "Ok!";
+
+"loginAlertSuccesTitle" = "Success!";
+"loginAlertSuccesMessage" = "User logged in!";
+"loginAlertSuccesButtonOK" = "Ok!";
+
+"loginAlertFailTitle" = "Error!";
+"loginAlertFailMessage" = "Wrong user data!";
+"loginAlertFailButton" = "Ok!";
+
+"userSavedTitle" = "Success!";
+"userSavedMessage" = "User data saved!";
+"userSavedButton" = "Ok!";
+
+"userPlaceholder" = "email";
+"passPlaceholder" = "password";
+
+"alertInternetTitle" = "Error!";
+"alertInternetMessage" = "Check your internet connection!";
+"alertInternetButton" = "Ok!";
+
+//PROFILE//
+
+"UserNameLBL" = "User name:";
+"UserAccNumberLBL" = "Account number:";
+"UserAccAmountLBL" = "Account amount:";
+"profilTitle" = "Profile";
+
+//MAPS//
+
+"mapTitle" = "Maps";
+"rightBarButtonItemList" = "List";
+"listATMtitle" = "List of ATMs";
+"detailTitle" = "ATM details";
+
+//TRANSACTIONS//
+
+"transTitle" = "Transactions";
+"searchCancel" = "Cancel";
+"123-..." = "Account number";
+"123=>$" = "Amount";
+"01-01-2012" = "Date";
+
+//EXCHANGE RATE//
+
+"tecajTitle" = "Exchange rate list";
+"valuteLBL" = "Currency";
+"midlleLBL" = "Interm. rate";
+"buySelLBL" = "Buying/selling";
+
+//SETTINGS//
+
+"settingsTitle" = "Settings";
+"infoLBL" = "Info";
+"languageLBL" = "Language";
+"languageAlertButtonTitle" = "Language:";
+"languageAlertMessage" = "English";
+"languageAlertCancelButtonTitle" = "OK!";
+"settAPPinfo" = "Application for practice";
+"settAPPvers" = "Version 1.0";

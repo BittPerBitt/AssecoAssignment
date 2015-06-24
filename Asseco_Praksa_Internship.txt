@@ -1,0 +1,19 @@
+Asseco_Praksa_Internship
+Mobilna aplikacija za vrijeme odraðivanja prakse u AssecoSEE, Varaždin
+
+Opis zadatka
+
+Potrebno je implementirati nativnu mobilnu aplikaciju (iOS, Android) koja omoguæava korisniku prikaz bankarskih informacija.
+
+Aplikacija treba sadržavati postupak autentifikacije, te se korisnik mora autentificirati pri pokretanju, ako autentifikacija bude uspješna tek mu se tada prikazuju ostale funkcionalnosti:
+
+prikaz korisnièkog profila
+prikaz mape s lokacijama bankomata
+prikaz transakcija izvršenih od strane korisnika
+prikaz teèajne liste
+postavke
+Aplikacija treba biti raðena prema UI/UX standardima definiranim za platformu za kojoj se aplikacija izraðuje.
+
+Link na trenutnu verziju aplikacije:
+
+https://www.youtube.com/watch?v=-nZKuwy2dt0

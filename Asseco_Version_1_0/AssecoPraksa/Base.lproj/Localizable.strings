@@ -1,0 +1,78 @@
+/* 
+  Localizable.strings
+  AssecoPraksa
+
+  Created by Zlatko Matokanović on 6/15/15.
+  Copyright (c) 2015 Appcoda. All rights reserved.
+*/
+
+//LOGIN//
+
+"loginLBL" = "Prijava";
+"rememberOption" = "Zapamti me?";
+
+"loginAlertTitleEmptyField" = "Greška!";
+"loginAlertMessageEF" = "Morate popuniti sva polja!";
+"loginAlertCancelButtonEF" = "Ok!";
+
+"loginAlertSuccesTitle" = "Uspjeh";
+"loginAlertSuccesMessage" = "Korisnik ulogiran!";
+"loginAlertSuccesButtonOK" = "Ok!";
+
+"loginAlertFailTitle" = "Greška!";
+"loginAlertFailMessage" = "Krivi unešeni podatci!";
+"loginAlertFailButton" = "Ok!";
+
+"userSavedTitle" = "Uspjeh!";
+"userSavedMessage" = "Spremili ste Vaše podatke";
+"userSavedButton" = "Ok!";
+
+"userPlaceholder" = "email";
+"passPlaceholder" = "lozinka";
+
+"alertInternetTitle" = "Greška!";
+"alertInternetMessage" = "Provjerite dostupnost mreže!";
+"alertInternetButton" = "Ok!";
+
+
+//PROFIL//
+
+"UserNameLBL" = "Ime korisnika:";
+"UserAccNumberLBL" = "Broj računa:";
+"UserAccAmountLBL" = "Iznos na računu:";
+"profilTitle" = "Profil";
+
+//MAPE//
+
+"mapTitle" = "Mape";
+"rightBarButtonItemList" = "Lista";
+"listATMtitle" = "Lista bankomata";
+"detailTitle" = "Detalji bankomata";
+
+//TRANSAKCIJE//
+
+"transTitle" = "Transakcije";
+"searchCancel" = "Nazad";
+"123-..." = "Broj računa";
+"123=>$" = "Iznos";
+"01-01-2012" = "Datum";
+
+//TECAJNA LISTA//
+
+"tecajTitle" = "Tečajna lista";
+"valuteLBL" = "Valuta";
+"midlleLBL" = "Srednji tečaj";
+"buySelLBL" = "Kupovni/prodajni";
+
+//POSTAVKE//
+
+"settingsTitle" = "Postavke";
+"infoLBL" = "Info";
+"languageLBL" = "Jezik";
+"languageAlertButtonTitle" = "Jezik:";
+"languageAlertMessage" = "Hrvatski";
+"languageAlertCancelButtonTitle" = "OK!";
+"settAPPinfo" = "Aplikacija za praksu";
+"settAPPvers" = "Verzija 1.0";
+
+

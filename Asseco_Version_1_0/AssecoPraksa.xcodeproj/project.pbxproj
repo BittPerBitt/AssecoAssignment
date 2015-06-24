@@ -1,0 +1,896 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD25B50F1B1C49930071167F /* pbz-logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD25B50E1B1C49930071167F /* pbz-logo.jpg */; };
+		AD25B5131B1C50620071167F /* ASS_Transakcije.m in Sources */ = {isa = PBXBuildFile; fileRef = AD25B5121B1C50620071167F /* ASS_Transakcije.m */; };
+		AD25B5161B1C509A0071167F /* ASS_Transakcije_JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = AD25B5151B1C509A0071167F /* ASS_Transakcije_JSON.m */; };
+		AD2D5BC41B2DD0A10012C9B4 /* ASS_NavController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2D5BC31B2DD0A10012C9B4 /* ASS_NavController.m */; };
+		AD2D5BC71B2DD6E30012C9B4 /* ASS_MapView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2D5BC61B2DD6E30012C9B4 /* ASS_MapView.m */; };
+		AD37F3351B131B25008105CF /* ASS_ListaATM.m in Sources */ = {isa = PBXBuildFile; fileRef = AD37F3341B131B25008105CF /* ASS_ListaATM.m */; };
+		AD37F33F1B135B7D008105CF /* ASS_ATM_info.m in Sources */ = {isa = PBXBuildFile; fileRef = AD37F33E1B135B7D008105CF /* ASS_ATM_info.m */; };
+		AD6974F91B1DF4E9002BD017 /* ASS_Trans_View.m in Sources */ = {isa = PBXBuildFile; fileRef = AD6974F81B1DF4E9002BD017 /* ASS_Trans_View.m */; };
+		AD6974FC1B1DF96A002BD017 /* ASS_Trans_detail_cell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD6974FB1B1DF96A002BD017 /* ASS_Trans_detail_cell.m */; };
+		AD756EF31B2EDBDC0071F165 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = AD756EF51B2EDBDC0071F165 /* Localizable.strings */; };
+		AD756EF91B2F1EEE0071F165 /* exit_profil.png in Resources */ = {isa = PBXBuildFile; fileRef = AD756EF81B2F1EEE0071F165 /* exit_profil.png */; };
+		AD756EFB1B2F1FBA0071F165 /* exit_p.png in Resources */ = {isa = PBXBuildFile; fileRef = AD756EFA1B2F1FBA0071F165 /* exit_p.png */; };
+		AD756EFD1B2F20410071F165 /* exit_p0.png in Resources */ = {isa = PBXBuildFile; fileRef = AD756EFC1B2F20410071F165 /* exit_p0.png */; };
+		AD76D5D01B2E1E3D00C33DAA /* currency.png in Resources */ = {isa = PBXBuildFile; fileRef = AD76D5CB1B2E1E3D00C33DAA /* currency.png */; };
+		AD76D5D11B2E1E3D00C33DAA /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = AD76D5CC1B2E1E3D00C33DAA /* map.png */; };
+		AD76D5D21B2E1E3D00C33DAA /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = AD76D5CD1B2E1E3D00C33DAA /* profile.png */; };
+		AD76D5D31B2E1E3D00C33DAA /* sett.png in Resources */ = {isa = PBXBuildFile; fileRef = AD76D5CE1B2E1E3D00C33DAA /* sett.png */; };
+		AD76D5D41B2E1E3D00C33DAA /* trans.png in Resources */ = {isa = PBXBuildFile; fileRef = AD76D5CF1B2E1E3D00C33DAA /* trans.png */; };
+		AD9BACDD1B2861D9002D1F55 /* ASS_Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9BACDB1B2861D9002D1F55 /* ASS_Settings.m */; };
+		AD9BACDE1B2861D9002D1F55 /* ASS_Settings.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD9BACDC1B2861D9002D1F55 /* ASS_Settings.xib */; };
+		AD9BACE11B28630F002D1F55 /* RedirectViewControllerSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9BACE01B28630F002D1F55 /* RedirectViewControllerSettings.m */; };
+		AD9BACE41B286CAB002D1F55 /* ASS_Info.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9BACE31B286CAB002D1F55 /* ASS_Info.m */; };
+		AD9BACE91B28772E002D1F55 /* ASS_settingsViewXIB.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD9BACE71B28772E002D1F55 /* ASS_settingsViewXIB.xib */; };
+		AD9BACEC1B2877E6002D1F55 /* ASS_SettingsView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9BACEB1B2877E6002D1F55 /* ASS_SettingsView.m */; };
+		AD9BACF01B2885ED002D1F55 /* customINFO.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD9BACEF1B2885ED002D1F55 /* customINFO.jpg */; };
+		AD9BCF9C1B0C71AF00C1A596 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD9BCF9B1B0C71AF00C1A596 /* MapKit.framework */; };
+		AD9BCF9F1B0C721300C1A596 /* ASS_Maps.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9BCF9E1B0C721300C1A596 /* ASS_Maps.m */; };
+		AD9BCFA31B0C7F4A00C1A596 /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9BCFA21B0C7F4A00C1A596 /* KeychainItemWrapper.m */; };
+		AD9F0EAD1B0F14DE0037D0DA /* ASS_Annotation.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9F0EAC1B0F14DE0037D0DA /* ASS_Annotation.m */; };
+		AD9F0EB51B0F63AA0037D0DA /* asseco_see_logo1.png in Resources */ = {isa = PBXBuildFile; fileRef = AD9F0EB41B0F63AA0037D0DA /* asseco_see_logo1.png */; };
+		AD9F0EB81B0F6DFD0037D0DA /* ASS_CustomAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9F0EB71B0F6DFD0037D0DA /* ASS_CustomAnnotation.m */; };
+		AD9F0EBA1B0F78DA0037D0DA /* asseco_see_logo2.png in Resources */ = {isa = PBXBuildFile; fileRef = AD9F0EB91B0F78DA0037D0DA /* asseco_see_logo2.png */; };
+		ADA4697E1B2F6372005FD024 /* rowSet.png in Resources */ = {isa = PBXBuildFile; fileRef = ADA4697D1B2F6372005FD024 /* rowSet.png */; };
+		ADA469801B2F6473005FD024 /* visual_8.png in Resources */ = {isa = PBXBuildFile; fileRef = ADA4697F1B2F6473005FD024 /* visual_8.png */; };
+		ADA469821B2F6C22005FD024 /* visual_dach_1.png in Resources */ = {isa = PBXBuildFile; fileRef = ADA469811B2F6C22005FD024 /* visual_dach_1.png */; };
+		ADA469841B2F6C3A005FD024 /* visual_dach.png in Resources */ = {isa = PBXBuildFile; fileRef = ADA469831B2F6C3A005FD024 /* visual_dach.png */; };
+		ADA469861B2F6EFC005FD024 /* detailATMback.png in Resources */ = {isa = PBXBuildFile; fileRef = ADA469851B2F6EFC005FD024 /* detailATMback.png */; };
+		ADA469881B2F6FFF005FD024 /* detailATMback (1).png in Resources */ = {isa = PBXBuildFile; fileRef = ADA469871B2F6FFF005FD024 /* detailATMback (1).png */; };
+		ADA4698A1B2F723D005FD024 /* detailATMbackRub.png in Resources */ = {isa = PBXBuildFile; fileRef = ADA469891B2F723D005FD024 /* detailATMbackRub.png */; };
+		ADA4698E1B2F75C7005FD024 /* asseco_120.png in Resources */ = {isa = PBXBuildFile; fileRef = ADA4698B1B2F75C7005FD024 /* asseco_120.png */; };
+		ADA4698F1B2F75C7005FD024 /* asseco_80.png in Resources */ = {isa = PBXBuildFile; fileRef = ADA4698C1B2F75C7005FD024 /* asseco_80.png */; };
+		ADA469901B2F75C7005FD024 /* asseco_60.png in Resources */ = {isa = PBXBuildFile; fileRef = ADA4698D1B2F75C7005FD024 /* asseco_60.png */; };
+		ADA469941B2F7ADC005FD024 /* asseco_logo_2_slovo_a.png in Resources */ = {isa = PBXBuildFile; fileRef = ADA469911B2F7ADC005FD024 /* asseco_logo_2_slovo_a.png */; };
+		ADA469951B2F7ADC005FD024 /* asseco_logo_3_grafika.png in Resources */ = {isa = PBXBuildFile; fileRef = ADA469921B2F7ADC005FD024 /* asseco_logo_3_grafika.png */; };
+		ADA469961B2F7ADC005FD024 /* asseco_logo_6_member_of_karta.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ADA469931B2F7ADC005FD024 /* asseco_logo_6_member_of_karta.jpg */; };
+		ADA684541B03478F003431C1 /* ASS_Profil.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA684531B03478F003431C1 /* ASS_Profil.m */; };
+		ADA8A68F1B2C843D007A905B /* login_back.png in Resources */ = {isa = PBXBuildFile; fileRef = ADA8A68B1B2C843D007A905B /* login_back.png */; };
+		ADA8A6971B2C86D6007A905B /* exit_buton.png in Resources */ = {isa = PBXBuildFile; fileRef = ADA8A6941B2C86D6007A905B /* exit_buton.png */; };
+		ADA8A69B1B2C8854007A905B /* pass_field.png in Resources */ = {isa = PBXBuildFile; fileRef = ADA8A6991B2C8854007A905B /* pass_field.png */; };
+		ADA8A69C1B2C8854007A905B /* username_field.png in Resources */ = {isa = PBXBuildFile; fileRef = ADA8A69A1B2C8854007A905B /* username_field.png */; };
+		ADAF793F1B2592F600C3E0C4 /* RedirectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAF793E1B2592F600C3E0C4 /* RedirectViewController.m */; };
+		ADAF79421B25993600C3E0C4 /* ASS_TecajnaListaConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAF79411B25993600C3E0C4 /* ASS_TecajnaListaConnection.m */; };
+		ADB41D0D1B25C06900963E64 /* ASS_Cell_Tecajna_Lista.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB41D0C1B25C06900963E64 /* ASS_Cell_Tecajna_Lista.m */; };
+		ADD037A21B009C8100BEFEBE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADD037A11B009C8100BEFEBE /* Foundation.framework */; };
+		ADD037A41B009C8100BEFEBE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADD037A31B009C8100BEFEBE /* CoreGraphics.framework */; };
+		ADD037A61B009C8100BEFEBE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADD037A51B009C8100BEFEBE /* UIKit.framework */; };
+		ADD037AC1B009C8100BEFEBE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ADD037AA1B009C8100BEFEBE /* InfoPlist.strings */; };
+		ADD037AE1B009C8100BEFEBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD037AD1B009C8100BEFEBE /* main.m */; };
+		ADD037B21B009C8100BEFEBE /* ASSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD037B11B009C8100BEFEBE /* ASSAppDelegate.m */; };
+		ADD037B51B009C8100BEFEBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADD037B31B009C8100BEFEBE /* Main.storyboard */; };
+		ADD037BA1B009C8100BEFEBE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADD037B91B009C8100BEFEBE /* Images.xcassets */; };
+		ADD037C11B009C8100BEFEBE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADD037C01B009C8100BEFEBE /* XCTest.framework */; };
+		ADD037C21B009C8100BEFEBE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADD037A11B009C8100BEFEBE /* Foundation.framework */; };
+		ADD037C31B009C8100BEFEBE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADD037A51B009C8100BEFEBE /* UIKit.framework */; };
+		ADD037CB1B009C8100BEFEBE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ADD037C91B009C8100BEFEBE /* InfoPlist.strings */; };
+		ADD037CD1B009C8100BEFEBE /* AssecoPraksaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD037CC1B009C8100BEFEBE /* AssecoPraksaTests.m */; };
+		ADD037DB1B00A1D000BEFEBE /* ASS_Login.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD037DA1B00A1D000BEFEBE /* ASS_Login.m */; };
+		ADD037ED1B00FC6800BEFEBE /* exit-button-hi_m.png in Resources */ = {isa = PBXBuildFile; fileRef = ADD037EC1B00FC6800BEFEBE /* exit-button-hi_m.png */; };
+		ADD03AB41B0CBC5A0070B452 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADD03AB31B0CBC5A0070B452 /* CoreLocation.framework */; };
+		ADD516AF1B25D8EA00F2E2F3 /* ASS_JSON_TL.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD516AE1B25D8EA00F2E2F3 /* ASS_JSON_TL.m */; };
+		ADD5DBDB1B257ABB009ABF83 /* TecajnaListaSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADD5DBDA1B257ABB009ABF83 /* TecajnaListaSB.storyboard */; };
+		ADD78A941B14B6FE007480F7 /* ASS_Cell_ATM.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD78A931B14B6FE007480F7 /* ASS_Cell_ATM.m */; };
+		ADD78A961B14BCC9007480F7 /* pbz_logo_lightbox.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ADD78A951B14BCC9007480F7 /* pbz_logo_lightbox.jpg */; };
+		ADDA9DEB1B2DAAD3000F6170 /* setingsAlert.png in Resources */ = {isa = PBXBuildFile; fileRef = ADDA9DEA1B2DAAD3000F6170 /* setingsAlert.png */; };
+		ADDA9DED1B2DAD5D000F6170 /* profil1.png in Resources */ = {isa = PBXBuildFile; fileRef = ADDA9DEC1B2DAD5D000F6170 /* profil1.png */; };
+		ADE2164B1B277EF600257AB7 /* ASS_tab_bar_controller_delegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE2164A1B277EF600257AB7 /* ASS_tab_bar_controller_delegate.m */; };
+		ADED0D821B1B901F008C246B /* ASS_ATM_Detail.m in Sources */ = {isa = PBXBuildFile; fileRef = ADED0D811B1B901F008C246B /* ASS_ATM_Detail.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADD037C41B009C8100BEFEBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADD037961B009C8100BEFEBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADD0379D1B009C8100BEFEBE;
+			remoteInfo = AssecoPraksa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD25B50E1B1C49930071167F /* pbz-logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pbz-logo.jpg"; sourceTree = "<group>"; };
+		AD25B5111B1C50620071167F /* ASS_Transakcije.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASS_Transakcije.h; sourceTree = "<group>"; };
+		AD25B5121B1C50620071167F /* ASS_Transakcije.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASS_Transakcije.m; sourceTree = "<group>"; };
+		AD25B5141B1C509A0071167F /* ASS_Transakcije_JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASS_Transakcije_JSON.h; sourceTree = "<group>"; };
+		AD25B5151B1C509A0071167F /* ASS_Transakcije_JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASS_Transakcije_JSON.m; sourceTree = "<group>"; };
+		AD2D5BC21B2DD0A10012C9B4 /* ASS_NavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASS_NavController.h; sourceTree = "<group>"; };
+		AD2D5BC31B2DD0A10012C9B4 /* ASS_NavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASS_NavController.m; sourceTree = "<group>"; };
+		AD2D5BC51B2DD6E30012C9B4 /* ASS_MapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASS_MapView.h; sourceTree = "<group>"; };
+		AD2D5BC61B2DD6E30012C9B4 /* ASS_MapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASS_MapView.m; sourceTree = "<group>"; };
+		AD37F3331B131B25008105CF /* ASS_ListaATM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASS_ListaATM.h; sourceTree = "<group>"; };
+		AD37F3341B131B25008105CF /* ASS_ListaATM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASS_ListaATM.m; sourceTree = "<group>"; };
+		AD37F33D1B135B7D008105CF /* ASS_ATM_info.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASS_ATM_info.h; sourceTree = "<group>"; };
+		AD37F33E1B135B7D008105CF /* ASS_ATM_info.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASS_ATM_info.m; sourceTree = "<group>"; };
+		AD6974F71B1DF4E9002BD017 /* ASS_Trans_View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASS_Trans_View.h; sourceTree = "<group>"; };
+		AD6974F81B1DF4E9002BD017 /* ASS_Trans_View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASS_Trans_View.m; sourceTree = "<group>"; };
+		AD6974FA1B1DF96A002BD017 /* ASS_Trans_detail_cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASS_Trans_detail_cell.h; sourceTree = "<group>"; };
+		AD6974FB1B1DF96A002BD017 /* ASS_Trans_detail_cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASS_Trans_detail_cell.m; sourceTree = "<group>"; };
+		AD756EEE1B2EDB1A0071F165 /* hr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hr; path = hr.lproj/Main.strings; sourceTree = "<group>"; };
+		AD756EEF1B2EDB1A0071F165 /* hr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hr; path = hr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AD756EF01B2EDB1A0071F165 /* hr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hr; path = hr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AD756EF41B2EDBDC0071F165 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		AD756EF61B2EDBE20071F165 /* hr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hr; path = hr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		AD756EF71B2EDBE60071F165 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		AD756EF81B2F1EEE0071F165 /* exit_profil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = exit_profil.png; sourceTree = "<group>"; };
+		AD756EFA1B2F1FBA0071F165 /* exit_p.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = exit_p.png; sourceTree = "<group>"; };
+		AD756EFC1B2F20410071F165 /* exit_p0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = exit_p0.png; sourceTree = "<group>"; };
+		AD76D5CB1B2E1E3D00C33DAA /* currency.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = currency.png; sourceTree = "<group>"; };
+		AD76D5CC1B2E1E3D00C33DAA /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
+		AD76D5CD1B2E1E3D00C33DAA /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile.png; sourceTree = "<group>"; };
+		AD76D5CE1B2E1E3D00C33DAA /* sett.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sett.png; sourceTree = "<group>"; };
+		AD76D5CF1B2E1E3D00C33DAA /* trans.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trans.png; sourceTree = "<group>"; };
+		AD9BACDA1B2861D9002D1F55 /* ASS_Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASS_Settings.h; sourceTree = "<group>"; };
+		AD9BACDB1B2861D9002D1F55 /* ASS_Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASS_Settings.m; sourceTree = "<group>"; };
+		AD9BACDC1B2861D9002D1F55 /* ASS_Settings.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ASS_Settings.xib; sourceTree = "<group>"; };
+		AD9BACDF1B28630F002D1F55 /* RedirectViewControllerSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedirectViewControllerSettings.h; sourceTree = "<group>"; };
+		AD9BACE01B28630F002D1F55 /* RedirectViewControllerSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedirectViewControllerSettings.m; sourceTree = "<group>"; };
+		AD9BACE21B286CAB002D1F55 /* ASS_Info.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASS_Info.h; sourceTree = "<group>"; };
+		AD9BACE31B286CAB002D1F55 /* ASS_Info.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASS_Info.m; sourceTree = "<group>"; };
+		AD9BACE71B28772E002D1F55 /* ASS_settingsViewXIB.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ASS_settingsViewXIB.xib; sourceTree = "<group>"; };
+		AD9BACEA1B2877E6002D1F55 /* ASS_SettingsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASS_SettingsView.h; sourceTree = "<group>"; };
+		AD9BACEB1B2877E6002D1F55 /* ASS_SettingsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASS_SettingsView.m; sourceTree = "<group>"; };
+		AD9BACEF1B2885ED002D1F55 /* customINFO.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = customINFO.jpg; sourceTree = "<group>"; };
+		AD9BCF9B1B0C71AF00C1A596 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		AD9BCF9D1B0C721300C1A596 /* ASS_Maps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASS_Maps.h; sourceTree = "<group>"; };
+		AD9BCF9E1B0C721300C1A596 /* ASS_Maps.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASS_Maps.m; sourceTree = "<group>"; };
+		AD9BCFA11B0C7F4A00C1A596 /* KeychainItemWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainItemWrapper.h; sourceTree = "<group>"; };
+		AD9BCFA21B0C7F4A00C1A596 /* KeychainItemWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainItemWrapper.m; sourceTree = "<group>"; };
+		AD9F0EAB1B0F14DE0037D0DA /* ASS_Annotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASS_Annotation.h; sourceTree = "<group>"; };
+		AD9F0EAC1B0F14DE0037D0DA /* ASS_Annotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASS_Annotation.m; sourceTree = "<group>"; };
+		AD9F0EB41B0F63AA0037D0DA /* asseco_see_logo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = asseco_see_logo1.png; sourceTree = "<group>"; };
+		AD9F0EB61B0F6DFD0037D0DA /* ASS_CustomAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASS_CustomAnnotation.h; sourceTree = "<group>"; };
+		AD9F0EB71B0F6DFD0037D0DA /* ASS_CustomAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASS_CustomAnnotation.m; sourceTree = "<group>"; };
+		AD9F0EB91B0F78DA0037D0DA /* asseco_see_logo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = asseco_see_logo2.png; sourceTree = "<group>"; };
+		ADA00BF01B31EF3A00CEC4DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		ADA4697D1B2F6372005FD024 /* rowSet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rowSet.png; sourceTree = "<group>"; };
+		ADA4697F1B2F6473005FD024 /* visual_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = visual_8.png; sourceTree = "<group>"; };
+		ADA469811B2F6C22005FD024 /* visual_dach_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = visual_dach_1.png; sourceTree = "<group>"; };
+		ADA469831B2F6C3A005FD024 /* visual_dach.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = visual_dach.png; sourceTree = "<group>"; };
+		ADA469851B2F6EFC005FD024 /* detailATMback.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = detailATMback.png; sourceTree = "<group>"; };
+		ADA469871B2F6FFF005FD024 /* detailATMback (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "detailATMback (1).png"; sourceTree = "<group>"; };
+		ADA469891B2F723D005FD024 /* detailATMbackRub.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = detailATMbackRub.png; sourceTree = "<group>"; };
+		ADA4698B1B2F75C7005FD024 /* asseco_120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = asseco_120.png; sourceTree = "<group>"; };
+		ADA4698C1B2F75C7005FD024 /* asseco_80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = asseco_80.png; sourceTree = "<group>"; };
+		ADA4698D1B2F75C7005FD024 /* asseco_60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = asseco_60.png; sourceTree = "<group>"; };
+		ADA469911B2F7ADC005FD024 /* asseco_logo_2_slovo_a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = asseco_logo_2_slovo_a.png; sourceTree = "<group>"; };
+		ADA469921B2F7ADC005FD024 /* asseco_logo_3_grafika.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = asseco_logo_3_grafika.png; sourceTree = "<group>"; };
+		ADA469931B2F7ADC005FD024 /* asseco_logo_6_member_of_karta.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = asseco_logo_6_member_of_karta.jpg; sourceTree = "<group>"; };
+		ADA684521B03478F003431C1 /* ASS_Profil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASS_Profil.h; sourceTree = "<group>"; };
+		ADA684531B03478F003431C1 /* ASS_Profil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASS_Profil.m; sourceTree = "<group>"; };
+		ADA8A68B1B2C843D007A905B /* login_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_back.png; sourceTree = "<group>"; };
+		ADA8A6941B2C86D6007A905B /* exit_buton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = exit_buton.png; sourceTree = "<group>"; };
+		ADA8A6991B2C8854007A905B /* pass_field.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pass_field.png; sourceTree = "<group>"; };
+		ADA8A69A1B2C8854007A905B /* username_field.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = username_field.png; sourceTree = "<group>"; };
+		ADAF793D1B2592F600C3E0C4 /* RedirectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedirectViewController.h; sourceTree = "<group>"; };
+		ADAF793E1B2592F600C3E0C4 /* RedirectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedirectViewController.m; sourceTree = "<group>"; };
+		ADAF79401B25993600C3E0C4 /* ASS_TecajnaListaConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASS_TecajnaListaConnection.h; sourceTree = "<group>"; };
+		ADAF79411B25993600C3E0C4 /* ASS_TecajnaListaConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASS_TecajnaListaConnection.m; sourceTree = "<group>"; };
+		ADB41D0B1B25C06900963E64 /* ASS_Cell_Tecajna_Lista.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASS_Cell_Tecajna_Lista.h; sourceTree = "<group>"; };
+		ADB41D0C1B25C06900963E64 /* ASS_Cell_Tecajna_Lista.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASS_Cell_Tecajna_Lista.m; sourceTree = "<group>"; };
+		ADD0379E1B009C8100BEFEBE /* AssecoPraksa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AssecoPraksa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADD037A11B009C8100BEFEBE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ADD037A31B009C8100BEFEBE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ADD037A51B009C8100BEFEBE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ADD037A91B009C8100BEFEBE /* AssecoPraksa-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AssecoPraksa-Info.plist"; sourceTree = "<group>"; };
+		ADD037AB1B009C8100BEFEBE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ADD037AD1B009C8100BEFEBE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ADD037AF1B009C8100BEFEBE /* AssecoPraksa-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AssecoPraksa-Prefix.pch"; sourceTree = "<group>"; };
+		ADD037B01B009C8100BEFEBE /* ASSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASSAppDelegate.h; sourceTree = "<group>"; };
+		ADD037B11B009C8100BEFEBE /* ASSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASSAppDelegate.m; sourceTree = "<group>"; };
+		ADD037B41B009C8100BEFEBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ADD037B91B009C8100BEFEBE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ADD037BF1B009C8100BEFEBE /* AssecoPraksaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AssecoPraksaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADD037C01B009C8100BEFEBE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		ADD037C81B009C8100BEFEBE /* AssecoPraksaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AssecoPraksaTests-Info.plist"; sourceTree = "<group>"; };
+		ADD037CA1B009C8100BEFEBE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ADD037CC1B009C8100BEFEBE /* AssecoPraksaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AssecoPraksaTests.m; sourceTree = "<group>"; };
+		ADD037D91B00A1D000BEFEBE /* ASS_Login.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASS_Login.h; path = ../ASS_Login.h; sourceTree = "<group>"; };
+		ADD037DA1B00A1D000BEFEBE /* ASS_Login.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASS_Login.m; path = ../ASS_Login.m; sourceTree = "<group>"; };
+		ADD037EC1B00FC6800BEFEBE /* exit-button-hi_m.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "exit-button-hi_m.png"; sourceTree = "<group>"; };
+		ADD03AB31B0CBC5A0070B452 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		ADD516AD1B25D8EA00F2E2F3 /* ASS_JSON_TL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASS_JSON_TL.h; sourceTree = "<group>"; };
+		ADD516AE1B25D8EA00F2E2F3 /* ASS_JSON_TL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASS_JSON_TL.m; sourceTree = "<group>"; };
+		ADD5DBDA1B257ABB009ABF83 /* TecajnaListaSB.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TecajnaListaSB.storyboard; sourceTree = "<group>"; };
+		ADD78A921B14B6FE007480F7 /* ASS_Cell_ATM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASS_Cell_ATM.h; sourceTree = "<group>"; };
+		ADD78A931B14B6FE007480F7 /* ASS_Cell_ATM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASS_Cell_ATM.m; sourceTree = "<group>"; };
+		ADD78A951B14BCC9007480F7 /* pbz_logo_lightbox.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pbz_logo_lightbox.jpg; sourceTree = "<group>"; };
+		ADDA9DEA1B2DAAD3000F6170 /* setingsAlert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setingsAlert.png; sourceTree = "<group>"; };
+		ADDA9DEC1B2DAD5D000F6170 /* profil1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profil1.png; sourceTree = "<group>"; };
+		ADE216491B277EF600257AB7 /* ASS_tab_bar_controller_delegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASS_tab_bar_controller_delegate.h; sourceTree = "<group>"; };
+		ADE2164A1B277EF600257AB7 /* ASS_tab_bar_controller_delegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASS_tab_bar_controller_delegate.m; sourceTree = "<group>"; };
+		ADED0D801B1B901F008C246B /* ASS_ATM_Detail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASS_ATM_Detail.h; sourceTree = "<group>"; };
+		ADED0D811B1B901F008C246B /* ASS_ATM_Detail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASS_ATM_Detail.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADD0379B1B009C8100BEFEBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADD03AB41B0CBC5A0070B452 /* CoreLocation.framework in Frameworks */,
+				AD9BCF9C1B0C71AF00C1A596 /* MapKit.framework in Frameworks */,
+				ADD037A41B009C8100BEFEBE /* CoreGraphics.framework in Frameworks */,
+				ADD037A61B009C8100BEFEBE /* UIKit.framework in Frameworks */,
+				ADD037A21B009C8100BEFEBE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADD037BC1B009C8100BEFEBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADD037C11B009C8100BEFEBE /* XCTest.framework in Frameworks */,
+				ADD037C31B009C8100BEFEBE /* UIKit.framework in Frameworks */,
+				ADD037C21B009C8100BEFEBE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD25B5101B1C4ADE0071167F /* Transakcije */ = {
+			isa = PBXGroup;
+			children = (
+				AD25B5111B1C50620071167F /* ASS_Transakcije.h */,
+				AD25B5121B1C50620071167F /* ASS_Transakcije.m */,
+				AD25B5141B1C509A0071167F /* ASS_Transakcije_JSON.h */,
+				AD25B5151B1C509A0071167F /* ASS_Transakcije_JSON.m */,
+				AD6974F71B1DF4E9002BD017 /* ASS_Trans_View.h */,
+				AD6974F81B1DF4E9002BD017 /* ASS_Trans_View.m */,
+				AD6974FA1B1DF96A002BD017 /* ASS_Trans_detail_cell.h */,
+				AD6974FB1B1DF96A002BD017 /* ASS_Trans_detail_cell.m */,
+			);
+			name = Transakcije;
+			sourceTree = "<group>";
+		};
+		AD37F33C1B135B65008105CF /* ATM */ = {
+			isa = PBXGroup;
+			children = (
+				AD37F33D1B135B7D008105CF /* ASS_ATM_info.h */,
+				AD37F33E1B135B7D008105CF /* ASS_ATM_info.m */,
+			);
+			name = ATM;
+			sourceTree = "<group>";
+		};
+		AD37F3401B135B89008105CF /* ATM_Lista */ = {
+			isa = PBXGroup;
+			children = (
+				AD37F3331B131B25008105CF /* ASS_ListaATM.h */,
+				AD37F3341B131B25008105CF /* ASS_ListaATM.m */,
+				ADD78A921B14B6FE007480F7 /* ASS_Cell_ATM.h */,
+				ADD78A931B14B6FE007480F7 /* ASS_Cell_ATM.m */,
+				ADED0D801B1B901F008C246B /* ASS_ATM_Detail.h */,
+				ADED0D811B1B901F008C246B /* ASS_ATM_Detail.m */,
+			);
+			name = ATM_Lista;
+			sourceTree = "<group>";
+		};
+		AD9BCF991B0C708B00C1A596 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				ADD037D91B00A1D000BEFEBE /* ASS_Login.h */,
+				ADD037DA1B00A1D000BEFEBE /* ASS_Login.m */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		AD9BCF9A1B0C70B100C1A596 /* ATM_MAPS */ = {
+			isa = PBXGroup;
+			children = (
+				AD9BCF9D1B0C721300C1A596 /* ASS_Maps.h */,
+				AD9BCF9E1B0C721300C1A596 /* ASS_Maps.m */,
+				AD2D5BC51B2DD6E30012C9B4 /* ASS_MapView.h */,
+				AD2D5BC61B2DD6E30012C9B4 /* ASS_MapView.m */,
+				AD9F0EAB1B0F14DE0037D0DA /* ASS_Annotation.h */,
+				AD9F0EAC1B0F14DE0037D0DA /* ASS_Annotation.m */,
+				AD9F0EB61B0F6DFD0037D0DA /* ASS_CustomAnnotation.h */,
+				AD9F0EB71B0F6DFD0037D0DA /* ASS_CustomAnnotation.m */,
+				AD37F3401B135B89008105CF /* ATM_Lista */,
+				AD37F33C1B135B65008105CF /* ATM */,
+			);
+			name = ATM_MAPS;
+			sourceTree = "<group>";
+		};
+		AD9BCFA01B0C7EF500C1A596 /* KeyChain */ = {
+			isa = PBXGroup;
+			children = (
+				AD9BCFA11B0C7F4A00C1A596 /* KeychainItemWrapper.h */,
+				AD9BCFA21B0C7F4A00C1A596 /* KeychainItemWrapper.m */,
+			);
+			name = KeyChain;
+			sourceTree = "<group>";
+		};
+		ADD037951B009C8100BEFEBE = {
+			isa = PBXGroup;
+			children = (
+				ADD037A71B009C8100BEFEBE /* AssecoPraksa */,
+				ADD037C61B009C8100BEFEBE /* AssecoPraksaTests */,
+				ADD037A01B009C8100BEFEBE /* Frameworks */,
+				ADD0379F1B009C8100BEFEBE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADD0379F1B009C8100BEFEBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADD0379E1B009C8100BEFEBE /* AssecoPraksa.app */,
+				ADD037BF1B009C8100BEFEBE /* AssecoPraksaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADD037A01B009C8100BEFEBE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ADD03AB31B0CBC5A0070B452 /* CoreLocation.framework */,
+				AD9BCF9B1B0C71AF00C1A596 /* MapKit.framework */,
+				ADD037A11B009C8100BEFEBE /* Foundation.framework */,
+				ADD037A31B009C8100BEFEBE /* CoreGraphics.framework */,
+				ADD037A51B009C8100BEFEBE /* UIKit.framework */,
+				ADD037C01B009C8100BEFEBE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ADD037A71B009C8100BEFEBE /* AssecoPraksa */ = {
+			isa = PBXGroup;
+			children = (
+				ADD037B31B009C8100BEFEBE /* Main.storyboard */,
+				AD756EF51B2EDBDC0071F165 /* Localizable.strings */,
+				ADD037B01B009C8100BEFEBE /* ASSAppDelegate.h */,
+				ADD037B11B009C8100BEFEBE /* ASSAppDelegate.m */,
+				ADE216491B277EF600257AB7 /* ASS_tab_bar_controller_delegate.h */,
+				ADE2164A1B277EF600257AB7 /* ASS_tab_bar_controller_delegate.m */,
+				AD2D5BC21B2DD0A10012C9B4 /* ASS_NavController.h */,
+				AD2D5BC31B2DD0A10012C9B4 /* ASS_NavController.m */,
+				AD9BCF991B0C708B00C1A596 /* Login */,
+				ADE124FC1B09E25A00D0080C /* Profil */,
+				AD9BCF9A1B0C70B100C1A596 /* ATM_MAPS */,
+				AD25B5101B1C4ADE0071167F /* Transakcije */,
+				ADD5DBD71B257A49009ABF83 /* Tecajna_Lista */,
+				ADD5DBD81B257A60009ABF83 /* Postavke */,
+				ADD5DBD91B257A68009ABF83 /* Jezik */,
+				ADD037B91B009C8100BEFEBE /* Images.xcassets */,
+				AD9BCFA01B0C7EF500C1A596 /* KeyChain */,
+				ADD037A81B009C8100BEFEBE /* Supporting Files */,
+			);
+			path = AssecoPraksa;
+			sourceTree = "<group>";
+		};
+		ADD037A81B009C8100BEFEBE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADDA9DE91B2DAA9A000F6170 /* images */,
+				ADD037A91B009C8100BEFEBE /* AssecoPraksa-Info.plist */,
+				ADD037AA1B009C8100BEFEBE /* InfoPlist.strings */,
+				ADD037AD1B009C8100BEFEBE /* main.m */,
+				ADD037AF1B009C8100BEFEBE /* AssecoPraksa-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ADD037C61B009C8100BEFEBE /* AssecoPraksaTests */ = {
+			isa = PBXGroup;
+			children = (
+				ADD037CC1B009C8100BEFEBE /* AssecoPraksaTests.m */,
+				ADD037C71B009C8100BEFEBE /* Supporting Files */,
+			);
+			path = AssecoPraksaTests;
+			sourceTree = "<group>";
+		};
+		ADD037C71B009C8100BEFEBE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADD037C81B009C8100BEFEBE /* AssecoPraksaTests-Info.plist */,
+				ADD037C91B009C8100BEFEBE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ADD516AC1B25CAE200F2E2F3 /* MainSB+TL_SB */ = {
+			isa = PBXGroup;
+			children = (
+				ADAF793D1B2592F600C3E0C4 /* RedirectViewController.h */,
+				ADAF793E1B2592F600C3E0C4 /* RedirectViewController.m */,
+			);
+			name = "MainSB+TL_SB";
+			sourceTree = "<group>";
+		};
+		ADD5DBD71B257A49009ABF83 /* Tecajna_Lista */ = {
+			isa = PBXGroup;
+			children = (
+				ADD5DBDA1B257ABB009ABF83 /* TecajnaListaSB.storyboard */,
+				ADAF79401B25993600C3E0C4 /* ASS_TecajnaListaConnection.h */,
+				ADAF79411B25993600C3E0C4 /* ASS_TecajnaListaConnection.m */,
+				ADD516AD1B25D8EA00F2E2F3 /* ASS_JSON_TL.h */,
+				ADD516AE1B25D8EA00F2E2F3 /* ASS_JSON_TL.m */,
+				ADB41D0B1B25C06900963E64 /* ASS_Cell_Tecajna_Lista.h */,
+				ADB41D0C1B25C06900963E64 /* ASS_Cell_Tecajna_Lista.m */,
+				ADD516AC1B25CAE200F2E2F3 /* MainSB+TL_SB */,
+			);
+			name = Tecajna_Lista;
+			sourceTree = "<group>";
+		};
+		ADD5DBD81B257A60009ABF83 /* Postavke */ = {
+			isa = PBXGroup;
+			children = (
+				AD9BACDA1B2861D9002D1F55 /* ASS_Settings.h */,
+				AD9BACDB1B2861D9002D1F55 /* ASS_Settings.m */,
+				AD9BACDC1B2861D9002D1F55 /* ASS_Settings.xib */,
+				AD9BACEA1B2877E6002D1F55 /* ASS_SettingsView.h */,
+				AD9BACEB1B2877E6002D1F55 /* ASS_SettingsView.m */,
+				AD9BACE71B28772E002D1F55 /* ASS_settingsViewXIB.xib */,
+				AD9BACE21B286CAB002D1F55 /* ASS_Info.h */,
+				AD9BACE31B286CAB002D1F55 /* ASS_Info.m */,
+				AD9BACDF1B28630F002D1F55 /* RedirectViewControllerSettings.h */,
+				AD9BACE01B28630F002D1F55 /* RedirectViewControllerSettings.m */,
+			);
+			name = Postavke;
+			sourceTree = "<group>";
+		};
+		ADD5DBD91B257A68009ABF83 /* Jezik */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Jezik;
+			sourceTree = "<group>";
+		};
+		ADDA9DE91B2DAA9A000F6170 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				ADA4698B1B2F75C7005FD024 /* asseco_120.png */,
+				ADA4698C1B2F75C7005FD024 /* asseco_80.png */,
+				ADA4698D1B2F75C7005FD024 /* asseco_60.png */,
+				ADA469911B2F7ADC005FD024 /* asseco_logo_2_slovo_a.png */,
+				ADA469921B2F7ADC005FD024 /* asseco_logo_3_grafika.png */,
+				ADA469931B2F7ADC005FD024 /* asseco_logo_6_member_of_karta.jpg */,
+				ADA469811B2F6C22005FD024 /* visual_dach_1.png */,
+				ADA469891B2F723D005FD024 /* detailATMbackRub.png */,
+				ADA469871B2F6FFF005FD024 /* detailATMback (1).png */,
+				ADA469851B2F6EFC005FD024 /* detailATMback.png */,
+				ADA469831B2F6C3A005FD024 /* visual_dach.png */,
+				ADA4697D1B2F6372005FD024 /* rowSet.png */,
+				ADA4697F1B2F6473005FD024 /* visual_8.png */,
+				AD756EFC1B2F20410071F165 /* exit_p0.png */,
+				AD756EF81B2F1EEE0071F165 /* exit_profil.png */,
+				AD756EFA1B2F1FBA0071F165 /* exit_p.png */,
+				AD76D5CB1B2E1E3D00C33DAA /* currency.png */,
+				AD76D5CC1B2E1E3D00C33DAA /* map.png */,
+				AD76D5CD1B2E1E3D00C33DAA /* profile.png */,
+				AD76D5CE1B2E1E3D00C33DAA /* sett.png */,
+				AD76D5CF1B2E1E3D00C33DAA /* trans.png */,
+				ADA8A68B1B2C843D007A905B /* login_back.png */,
+				ADA8A6991B2C8854007A905B /* pass_field.png */,
+				ADA8A69A1B2C8854007A905B /* username_field.png */,
+				ADDA9DEC1B2DAD5D000F6170 /* profil1.png */,
+				ADDA9DEA1B2DAAD3000F6170 /* setingsAlert.png */,
+				ADA8A6941B2C86D6007A905B /* exit_buton.png */,
+				ADD037EC1B00FC6800BEFEBE /* exit-button-hi_m.png */,
+				AD9F0EB41B0F63AA0037D0DA /* asseco_see_logo1.png */,
+				AD9F0EB91B0F78DA0037D0DA /* asseco_see_logo2.png */,
+				ADD78A951B14BCC9007480F7 /* pbz_logo_lightbox.jpg */,
+				AD25B50E1B1C49930071167F /* pbz-logo.jpg */,
+				AD9BACEF1B2885ED002D1F55 /* customINFO.jpg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		ADE124FC1B09E25A00D0080C /* Profil */ = {
+			isa = PBXGroup;
+			children = (
+				ADA684521B03478F003431C1 /* ASS_Profil.h */,
+				ADA684531B03478F003431C1 /* ASS_Profil.m */,
+			);
+			name = Profil;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADD0379D1B009C8100BEFEBE /* AssecoPraksa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADD037D01B009C8100BEFEBE /* Build configuration list for PBXNativeTarget "AssecoPraksa" */;
+			buildPhases = (
+				ADD0379A1B009C8100BEFEBE /* Sources */,
+				ADD0379B1B009C8100BEFEBE /* Frameworks */,
+				ADD0379C1B009C8100BEFEBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AssecoPraksa;
+			productName = AssecoPraksa;
+			productReference = ADD0379E1B009C8100BEFEBE /* AssecoPraksa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADD037BE1B009C8100BEFEBE /* AssecoPraksaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADD037D31B009C8100BEFEBE /* Build configuration list for PBXNativeTarget "AssecoPraksaTests" */;
+			buildPhases = (
+				ADD037BB1B009C8100BEFEBE /* Sources */,
+				ADD037BC1B009C8100BEFEBE /* Frameworks */,
+				ADD037BD1B009C8100BEFEBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADD037C51B009C8100BEFEBE /* PBXTargetDependency */,
+			);
+			name = AssecoPraksaTests;
+			productName = AssecoPraksaTests;
+			productReference = ADD037BF1B009C8100BEFEBE /* AssecoPraksaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADD037961B009C8100BEFEBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ASS;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Appcoda;
+				TargetAttributes = {
+					ADD037BE1B009C8100BEFEBE = {
+						TestTargetID = ADD0379D1B009C8100BEFEBE;
+					};
+				};
+			};
+			buildConfigurationList = ADD037991B009C8100BEFEBE /* Build configuration list for PBXProject "AssecoPraksa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				hr,
+				de,
+			);
+			mainGroup = ADD037951B009C8100BEFEBE;
+			productRefGroup = ADD0379F1B009C8100BEFEBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADD0379D1B009C8100BEFEBE /* AssecoPraksa */,
+				ADD037BE1B009C8100BEFEBE /* AssecoPraksaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADD0379C1B009C8100BEFEBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD9BACF01B2885ED002D1F55 /* customINFO.jpg in Resources */,
+				ADA4697E1B2F6372005FD024 /* rowSet.png in Resources */,
+				AD76D5D01B2E1E3D00C33DAA /* currency.png in Resources */,
+				AD9BACDE1B2861D9002D1F55 /* ASS_Settings.xib in Resources */,
+				ADD037ED1B00FC6800BEFEBE /* exit-button-hi_m.png in Resources */,
+				AD76D5D11B2E1E3D00C33DAA /* map.png in Resources */,
+				ADDA9DEB1B2DAAD3000F6170 /* setingsAlert.png in Resources */,
+				ADD5DBDB1B257ABB009ABF83 /* TecajnaListaSB.storyboard in Resources */,
+				ADA8A68F1B2C843D007A905B /* login_back.png in Resources */,
+				AD9F0EBA1B0F78DA0037D0DA /* asseco_see_logo2.png in Resources */,
+				ADA469861B2F6EFC005FD024 /* detailATMback.png in Resources */,
+				ADA469951B2F7ADC005FD024 /* asseco_logo_3_grafika.png in Resources */,
+				ADA4698E1B2F75C7005FD024 /* asseco_120.png in Resources */,
+				ADDA9DED1B2DAD5D000F6170 /* profil1.png in Resources */,
+				ADA8A69B1B2C8854007A905B /* pass_field.png in Resources */,
+				AD9F0EB51B0F63AA0037D0DA /* asseco_see_logo1.png in Resources */,
+				ADA469821B2F6C22005FD024 /* visual_dach_1.png in Resources */,
+				ADA469881B2F6FFF005FD024 /* detailATMback (1).png in Resources */,
+				ADA8A69C1B2C8854007A905B /* username_field.png in Resources */,
+				AD756EF31B2EDBDC0071F165 /* Localizable.strings in Resources */,
+				AD76D5D21B2E1E3D00C33DAA /* profile.png in Resources */,
+				ADA469901B2F75C7005FD024 /* asseco_60.png in Resources */,
+				ADD037BA1B009C8100BEFEBE /* Images.xcassets in Resources */,
+				ADA8A6971B2C86D6007A905B /* exit_buton.png in Resources */,
+				ADA469961B2F7ADC005FD024 /* asseco_logo_6_member_of_karta.jpg in Resources */,
+				ADA469841B2F6C3A005FD024 /* visual_dach.png in Resources */,
+				ADD037AC1B009C8100BEFEBE /* InfoPlist.strings in Resources */,
+				AD9BACE91B28772E002D1F55 /* ASS_settingsViewXIB.xib in Resources */,
+				AD25B50F1B1C49930071167F /* pbz-logo.jpg in Resources */,
+				AD76D5D41B2E1E3D00C33DAA /* trans.png in Resources */,
+				ADA469801B2F6473005FD024 /* visual_8.png in Resources */,
+				AD756EF91B2F1EEE0071F165 /* exit_profil.png in Resources */,
+				AD76D5D31B2E1E3D00C33DAA /* sett.png in Resources */,
+				ADA469941B2F7ADC005FD024 /* asseco_logo_2_slovo_a.png in Resources */,
+				ADD78A961B14BCC9007480F7 /* pbz_logo_lightbox.jpg in Resources */,
+				AD756EFB1B2F1FBA0071F165 /* exit_p.png in Resources */,
+				ADD037B51B009C8100BEFEBE /* Main.storyboard in Resources */,
+				ADA4698F1B2F75C7005FD024 /* asseco_80.png in Resources */,
+				ADA4698A1B2F723D005FD024 /* detailATMbackRub.png in Resources */,
+				AD756EFD1B2F20410071F165 /* exit_p0.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADD037BD1B009C8100BEFEBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADD037CB1B009C8100BEFEBE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADD0379A1B009C8100BEFEBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADD037DB1B00A1D000BEFEBE /* ASS_Login.m in Sources */,
+				ADED0D821B1B901F008C246B /* ASS_ATM_Detail.m in Sources */,
+				ADA684541B03478F003431C1 /* ASS_Profil.m in Sources */,
+				AD2D5BC41B2DD0A10012C9B4 /* ASS_NavController.m in Sources */,
+				AD6974F91B1DF4E9002BD017 /* ASS_Trans_View.m in Sources */,
+				AD37F3351B131B25008105CF /* ASS_ListaATM.m in Sources */,
+				AD9BACEC1B2877E6002D1F55 /* ASS_SettingsView.m in Sources */,
+				AD9BCFA31B0C7F4A00C1A596 /* KeychainItemWrapper.m in Sources */,
+				AD9F0EAD1B0F14DE0037D0DA /* ASS_Annotation.m in Sources */,
+				AD9BACE41B286CAB002D1F55 /* ASS_Info.m in Sources */,
+				ADE2164B1B277EF600257AB7 /* ASS_tab_bar_controller_delegate.m in Sources */,
+				ADD037B21B009C8100BEFEBE /* ASSAppDelegate.m in Sources */,
+				ADB41D0D1B25C06900963E64 /* ASS_Cell_Tecajna_Lista.m in Sources */,
+				AD9F0EB81B0F6DFD0037D0DA /* ASS_CustomAnnotation.m in Sources */,
+				AD25B5131B1C50620071167F /* ASS_Transakcije.m in Sources */,
+				ADD516AF1B25D8EA00F2E2F3 /* ASS_JSON_TL.m in Sources */,
+				ADAF79421B25993600C3E0C4 /* ASS_TecajnaListaConnection.m in Sources */,
+				AD9BCF9F1B0C721300C1A596 /* ASS_Maps.m in Sources */,
+				ADD78A941B14B6FE007480F7 /* ASS_Cell_ATM.m in Sources */,
+				AD9BACDD1B2861D9002D1F55 /* ASS_Settings.m in Sources */,
+				AD9BACE11B28630F002D1F55 /* RedirectViewControllerSettings.m in Sources */,
+				AD25B5161B1C509A0071167F /* ASS_Transakcije_JSON.m in Sources */,
+				AD2D5BC71B2DD6E30012C9B4 /* ASS_MapView.m in Sources */,
+				AD6974FC1B1DF96A002BD017 /* ASS_Trans_detail_cell.m in Sources */,
+				AD37F33F1B135B7D008105CF /* ASS_ATM_info.m in Sources */,
+				ADAF793F1B2592F600C3E0C4 /* RedirectViewController.m in Sources */,
+				ADD037AE1B009C8100BEFEBE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADD037BB1B009C8100BEFEBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADD037CD1B009C8100BEFEBE /* AssecoPraksaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADD037C51B009C8100BEFEBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADD0379D1B009C8100BEFEBE /* AssecoPraksa */;
+			targetProxy = ADD037C41B009C8100BEFEBE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD756EF51B2EDBDC0071F165 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD756EF41B2EDBDC0071F165 /* Base */,
+				AD756EF61B2EDBE20071F165 /* hr */,
+				AD756EF71B2EDBE60071F165 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		ADD037AA1B009C8100BEFEBE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADD037AB1B009C8100BEFEBE /* en */,
+				AD756EEF1B2EDB1A0071F165 /* hr */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ADD037B31B009C8100BEFEBE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADD037B41B009C8100BEFEBE /* Base */,
+				AD756EEE1B2EDB1A0071F165 /* hr */,
+				ADA00BF01B31EF3A00CEC4DD /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ADD037C91B009C8100BEFEBE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADD037CA1B009C8100BEFEBE /* en */,
+				AD756EF01B2EDB1A0071F165 /* hr */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADD037CE1B009C8100BEFEBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ADD037CF1B009C8100BEFEBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADD037D11B009C8100BEFEBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AssecoPraksa/AssecoPraksa-Prefix.pch";
+				INFOPLIST_FILE = "AssecoPraksa/AssecoPraksa-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ADD037D21B009C8100BEFEBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AssecoPraksa/AssecoPraksa-Prefix.pch";
+				INFOPLIST_FILE = "AssecoPraksa/AssecoPraksa-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		ADD037D41B009C8100BEFEBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AssecoPraksa.app/AssecoPraksa";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AssecoPraksa/AssecoPraksa-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AssecoPraksaTests/AssecoPraksaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		ADD037D51B009C8100BEFEBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AssecoPraksa.app/AssecoPraksa";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AssecoPraksa/AssecoPraksa-Prefix.pch";
+				INFOPLIST_FILE = "AssecoPraksaTests/AssecoPraksaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADD037991B009C8100BEFEBE /* Build configuration list for PBXProject "AssecoPraksa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADD037CE1B009C8100BEFEBE /* Debug */,
+				ADD037CF1B009C8100BEFEBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADD037D01B009C8100BEFEBE /* Build configuration list for PBXNativeTarget "AssecoPraksa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADD037D11B009C8100BEFEBE /* Debug */,
+				ADD037D21B009C8100BEFEBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADD037D31B009C8100BEFEBE /* Build configuration list for PBXNativeTarget "AssecoPraksaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADD037D41B009C8100BEFEBE /* Debug */,
+				ADD037D51B009C8100BEFEBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADD037961B009C8100BEFEBE /* Project object */;
+}

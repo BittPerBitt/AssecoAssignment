@@ -1,0 +1,126 @@
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "19V-Ug-N8K"; */
+"19V-Ug-N8K.text" = "Label";
+
+/* Class = "IBUILabel"; text = "UserAccAmount:"; ObjectID = "1YJ-E8-9Sg"; */
+"1YJ-E8-9Sg.text" = "UserAccAmount:";
+
+/* Class = "IBUILabel"; text = "Name"; ObjectID = "2YN-El-Vfn"; */
+"2YN-El-Vfn.text" = "Name";
+
+/* Class = "IBUIViewController"; title = "redirectVC"; ObjectID = "37K-B6-ju0"; */
+"37K-B6-ju0.title" = "redirectVC";
+
+/* Class = "IBUILabel"; text = "weekendTime"; ObjectID = "3zE-1N-ykK"; */
+"3zE-1N-ykK.text" = "weekendTime";
+
+/* Class = "IBUINavigationItem"; title = "redirectVC"; ObjectID = "7BI-RH-8gq"; */
+"7BI-RH-8gq.title" = "redirectVC";
+
+/* Class = "IBUILabel"; text = "AccNumber"; ObjectID = "8yM-sg-qZH"; */
+"8yM-sg-qZH.text" = "AccNumber";
+
+/* Class = "IBUILabel"; text = "Br racuna"; ObjectID = "9JC-Qj-yxb"; */
+"9JC-Qj-yxb.text" = "Br racuna";
+
+/* Class = "IBUIButton"; normalTitle = "Prijava"; ObjectID = "EHI-kI-lPZ"; */
+"EHI-kI-lPZ.normalTitle" = "Prijava";
+
+/* Class = "IBUIViewController"; title = "Login"; ObjectID = "Efb-Gu-mxT"; */
+"Efb-Gu-mxT.title" = "Login";
+
+/* Class = "IBUILabel"; text = "City name"; ObjectID = "GkN-Yl-INY"; */
+"GkN-Yl-INY.text" = "City name";
+
+/* Class = "IBUILabel"; text = "Zapamti me?"; ObjectID = "KpE-fN-2GS"; */
+"KpE-fN-2GS.text" = "Zapamti me?";
+
+/* Class = "IBUILabel"; text = "Opis"; ObjectID = "Ksr-kE-QWp"; */
+"Ksr-kE-QWp.text" = "Opis";
+
+/* Class = "IBUILabel"; text = "City state"; ObjectID = "LNF-77-SRY"; */
+"LNF-77-SRY.text" = "City state";
+
+/* Class = "IBUITableViewController"; title = "Transakcije"; ObjectID = "NuT-c8-Tit"; */
+"NuT-c8-Tit.title" = "Transakcije";
+
+/* Class = "IBUILabel"; text = "Datum"; ObjectID = "OLO-df-xY6"; */
+"OLO-df-xY6.text" = "Datum";
+
+/* Class = "IBUILabel"; text = "HRK"; ObjectID = "P5R-8i-dHI"; */
+"P5R-8i-dHI.text" = "HRK";
+
+/* Class = "IBUILabel"; text = "Iznos"; ObjectID = "Pyv-oc-3fb"; */
+"Pyv-oc-3fb.text" = "Iznos";
+
+/* Class = "IBUILabel"; text = "Amount"; ObjectID = "QgU-kY-jjH"; */
+"QgU-kY-jjH.text" = "Amount";
+
+/* Class = "IBUILabel"; text = "City post"; ObjectID = "TG6-RQ-ov5"; */
+"TG6-RQ-ov5.text" = "City post";
+
+/* Class = "IBUILabel"; text = "weekTime"; ObjectID = "Tj9-Vi-Ol6"; */
+"Tj9-Vi-Ol6.text" = "weekTime";
+
+/* Class = "IBUILabel"; text = "Datum"; ObjectID = "V3a-XK-jVe"; */
+"V3a-XK-jVe.text" = "Datum";
+
+/* Class = "IBUITabBarController"; title = "TabBarControlerMAIN"; ObjectID = "XLa-am-s8U"; */
+"XLa-am-s8U.title" = "TabBarControlerMAIN";
+
+/* Class = "IBUISearchBar"; Ypi-KO-1Iz.scopeButtonTitles[0] = "123-..."; ObjectID = "Ypi-KO-1Iz"; */
+"Ypi-KO-1Iz.scopeButtonTitles[0]" = "Broj računa";
+
+/* Class = "IBUISearchBar"; Ypi-KO-1Iz.scopeButtonTitles[1] = "123=>$"; ObjectID = "Ypi-KO-1Iz"; */
+"Ypi-KO-1Iz.scopeButtonTitles[1]" = "Iznos";
+
+/* Class = "IBUISearchBar"; Ypi-KO-1Iz.scopeButtonTitles[2] = "01-01-2012"; ObjectID = "Ypi-KO-1Iz"; */
+"Ypi-KO-1Iz.scopeButtonTitles[2]" = "Datum";
+
+/* Class = "IBUIViewController"; title = "Profil"; ObjectID = "Z8u-VQ-XEb"; */
+"Z8u-VQ-XEb.title" = "Profil";
+
+/* Class = "IBUITextField"; placeholder = "lozinka"; ObjectID = "a0q-fV-Szm"; */
+"a0q-fV-Szm.placeholder" = "lozinka";
+
+/* Class = "IBUILabel"; text = "City adres"; ObjectID = "chX-Q8-OUj"; */
+"chX-Q8-OUj.text" = "City adres";
+
+/* Class = "IBUILabel"; text = "HRK"; ObjectID = "dlK-xP-Yy4"; */
+"dlK-xP-Yy4.text" = "HRK";
+
+/* Class = "IBUILabel"; text = "User:"; ObjectID = "fdw-JH-88K"; */
+"fdw-JH-88K.text" = "User:";
+
+/* Class = "IBUITextField"; placeholder = "e mail"; ObjectID = "hzf-XL-Fye"; */
+"hzf-XL-Fye.placeholder" = "e mail";
+
+/* Class = "IBUILabel"; text = "Code"; ObjectID = "iHf-qm-sHx"; */
+"iHf-qm-sHx.text" = "Code";
+
+/* Class = "IBUILabel"; text = "Opis"; ObjectID = "idY-Fj-Fgi"; */
+"idY-Fj-Fgi.text" = "Opis";
+
+/* Class = "IBUILabel"; text = "Udaljenost"; ObjectID = "jtP-E8-59e"; */
+"jtP-E8-59e.text" = "Udaljenost";
+
+/* Class = "IBUILabel"; text = "Name"; ObjectID = "mHg-cl-pxc"; */
+"mHg-cl-pxc.text" = "Name";
+
+/* Class = "IBUILabel"; text = "Iznos"; ObjectID = "mah-xP-Fem"; */
+"mah-xP-Fem.text" = "Iznos";
+
+/* Class = "IBUILabel"; text = "UserAccNumber:"; ObjectID = "myS-UP-7kl"; */
+"myS-UP-7kl.text" = "UserAccNumber:";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "o2Q-ZU-BLn"; */
+"o2Q-ZU-BLn.text" = "Label";
+
+/* Class = "IBUILabel"; text = "weekDay"; ObjectID = "q3x-Q9-uMP"; */
+"q3x-Q9-uMP.text" = "weekDay";
+
+/* Class = "IBUILabel"; text = "Br racuna"; ObjectID = "qBR-Wg-cyz"; */
+"qBR-Wg-cyz.text" = "Br racuna";
+
+/* Class = "IBUILabel"; text = "weekendDay"; ObjectID = "x90-J6-6iU"; */
+"x90-J6-6iU.text" = "weekendDay";
