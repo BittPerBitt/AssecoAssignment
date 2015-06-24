@@ -17,3 +17,5 @@ Aplikacija treba biti rađena prema UI/UX standardima definiranim za platformu z
 Link na trenutnu verziju aplikacije:
 
 https://www.youtube.com/watch?v=-nZKuwy2dt0
+
+Nije finalna verzija zadatka/aplikacije, dalje razvijam i učim Objective-C, a time ću pokušati unaprijediti/poboljšati trenutnu aplikaciju.
